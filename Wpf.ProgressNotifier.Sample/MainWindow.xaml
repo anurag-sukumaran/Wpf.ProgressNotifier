@@ -1,0 +1,23 @@
+﻿<Window x:Class="Wpf.ProgressNotifier.Sample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf.ProgressNotifier.Sample" 
+        xmlns:System="clr-namespace:System;assembly=mscorlib"      Background="#f7f78b"
+        xmlns:notification="clr-namespace:RbCreation.Wpf.ProgressNotifier;assembly=RbCreation.Wpf.ProgressNotifier"
+        mc:Ignorable="d"         
+        Title="Progress Notifier" Height="300" Width="300">
+    <Grid>
+        <notification:ProgressNotifier x:Name="progress"  IntervalNotifier="2"   Foreground="Black" FontSize="14" FontFamily="Arial"
+                                       IsBusy="True" VerticalAlignment="Center" HorizontalAlignment="Stretch" >
+            <notification:ProgressNotifier.ProgressTextSource>
+                <System:String>Retrieving..</System:String>
+                <System:String>Validating the credentials..</System:String>
+                <System:String>Retrieving Data..</System:String>
+                <System:String>Connecting to the server..</System:String>
+                <System:String>Fetching..</System:String>
+            </notification:ProgressNotifier.ProgressTextSource>
+        </notification:ProgressNotifier>
+    </Grid>
+</Window>
