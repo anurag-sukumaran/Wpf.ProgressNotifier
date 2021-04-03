@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/progress_notifier_icon.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/progress_notifier.gif")]
 
 

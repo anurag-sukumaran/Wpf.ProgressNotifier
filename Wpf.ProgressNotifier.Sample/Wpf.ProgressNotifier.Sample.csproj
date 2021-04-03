@@ -107,5 +107,8 @@
   <ItemGroup>
     <Resource Include="Images\progress_notifier_icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\progress_notifier.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
