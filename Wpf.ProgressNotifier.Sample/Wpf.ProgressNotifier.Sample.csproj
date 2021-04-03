@@ -38,8 +38,8 @@
     <ApplicationIcon>progress_notifier_icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="RbCreation.Wpf.ProgressNotifier, Version=1.2.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\WPF.ProgressNotifier.1.2.2\lib\net46\RbCreation.Wpf.ProgressNotifier.dll</HintPath>
+    <Reference Include="RbCreation.Wpf.ProgressNotifier, Version=1.2.3.0, Culture=neutral, PublicKeyToken=636c30fd0f2d8e1a, processorArchitecture=MSIL">
+      <HintPath>..\packages\WPF.ProgressNotifier.1.2.3\lib\net46\RbCreation.Wpf.ProgressNotifier.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
