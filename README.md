@@ -6,7 +6,11 @@ This is a WPF control to show the progress of a long (aync) running task
 
 [![Nuget](https://img.shields.io/nuget/v/Fluent.Ribbon.svg?style=flat-square)](https://www.nuget.org/packages/WPF.ProgressNotifier)
 
+<div align="center">
+ 
+![progress_notifier](Wpf.ProgressNotifier.Sample/Images/progress_notifier.gif)
 
+</div>
 ## Installation
 
 Available on [Nuget](https://www.nuget.org/packages/WPF.ProgressNotifier/) 
