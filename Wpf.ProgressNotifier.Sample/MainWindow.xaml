@@ -12,6 +12,8 @@
         <notification:ProgressNotifier x:Name="progress"  IntervalNotifier="2"  
                                        Foreground="Black" FontSize="14" 
                                        FontFamily="Arial"
+                                       SpinnerHeight="40"
+                                       SpinnerWidth="40"
                                        IsBusy="True" VerticalAlignment="Center" 
                                        HorizontalAlignment="Stretch" >
             <notification:ProgressNotifier.ProgressTextSource>
