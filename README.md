@@ -28,7 +28,7 @@ Add Namespace
 Add Control 
 ```xaml
 <notification:ProgressNotifier x:Name="progress"  IntervalNotifier="2"   Foreground="Black" FontSize="14" FontFamily="Arial"
-                                       IsBusy="True" VerticalAlignment="Center" HorizontalAlignment="Stretch" >
+                                       IsBusy="True" VerticalAlignment="Center" HorizontalAlignment="Stretch" SpinnerHeight="30" SpinnerWidth="30" >
             <notification:ProgressNotifier.ProgressTextSource>
                 <System:String>Retrieving..</System:String>
                 <System:String>Validating the credentials..</System:String>
