@@ -38,6 +38,10 @@ Add Control
             </notification:ProgressNotifier.ProgressTextSource>
         </notification:ProgressNotifier>
 ```
+Set Busy (The spinner will run according to this bindable property)
+```xaml
+ IsBusy="True 
+```
 
 ## Sample
 
