@@ -23,7 +23,8 @@ Install-Package WPF.ProgressNotifier
 ## Usage
 Add Namespace
 ```xaml
- <xmlns:notification="clr-namespace:RbCreation.Wpf.ProgressNotifier;assembly=RbCreation.Wpf.ProgressNotifier"/>
+ <xmlns:notification="clr-namespace:RbCreation.Wpf.ProgressNotifier;assembly=RbCreation.Wpf.ProgressNotifier" 
+  xmlns:System="clr-namespace:System;assembly=mscorlib"  />
 ```
 Add Control 
 ```xaml
